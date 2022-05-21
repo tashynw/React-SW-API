@@ -1,0 +1,59 @@
+.card-box-individual{
+    width: 334px;
+    height: 480px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-bottom: 16px;
+}
+.card-info-header-individual{
+    margin: 0 auto;
+    width: 302px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border-bottom: 2px solid #D4D4D4;
+    margin-bottom: 16px;
+}
+.info-box-individual{
+    width: 288px;
+    height: 32px;
+    align-items: center;
+    background: #EDEDED;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+/*============RESPONSIVENESS==============*/
+
+/*TABLET DISPLAY*/
+@media (max-width: 800px){
+    .card-box-individual{
+        width: 456px;
+    }
+    .info-box-individual{
+        width: 410px;
+    }
+    .card-info-header-individual{
+        width: 424px;
+    }
+}
+
+/*PHONE DISPLAY*/
+@media (max-width: 425px){
+    .card-box-individual{
+        width: 358px;
+    }
+    .info-box-individual{
+        width: 312px;
+    }
+    .card-info-header-individual{
+        width: 326px;
+    }
+}
