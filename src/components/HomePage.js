@@ -54,7 +54,7 @@ const HomePage = ({ peopleData }) => {
                         <img className='search-image' alt='icon' src={require('../resources/Interview Assets/Search.svg').default} onClick={handleSearch} height={16} width={16}/>
                     </div>
                 </form>
-                    
+                {/*    
                 <div className='sort-box'>
                     <p className='sort-text'>Sort by</p>
                     <div className='sorting-option-button'>
@@ -66,7 +66,7 @@ const HomePage = ({ peopleData }) => {
                         <div className='descending-text'>DESC</div>
                     </div>
                     
-                </div>
+                </div> */}
             </div>
 
             <div className='main-card-box'>

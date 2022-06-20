@@ -33,7 +33,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    width: 837px;
+    width: 1168px;
     height: 34px;
     background: #FFFFFF;
     border: none;
@@ -43,7 +43,7 @@
 }
 
 .search-input{
-    width: 837px;
+    width: 1168px;
     height: 32px;
 
     background: #FFFFFF;
